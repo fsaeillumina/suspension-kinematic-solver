@@ -4,12 +4,14 @@ Option Base 1
 
 
 '------------------------------------------------------------
-'This module uses trilateration to determine a point given
-'   3 hardpoints, and the distance from the hardpoints to the
-'   unknown 4th point.
+'This module uses trilateration to determine xyz coordinates for a
+'   point given 3 hardpoints, and the distance from the hardpoints to
+'   the unknown 4th point.
 '
 'Getting Started
 '   In excel, open VBA, create a new module and copy in this code.
+'   You will also need to copy the support.vb file into this 
+'   module or another module in VBA. 
 '   In the worksheet, you can use the function trilateration()
 '
 'How to use the function in excel
